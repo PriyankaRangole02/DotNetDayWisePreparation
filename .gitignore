@@ -1,0 +1,48 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dependencies
+packages/
+*.nupkg
+*.snupkg
+project.lock.json
+project.assets.json
+global.json
+
+# Logs
+*.log
+logs/
+
+# Rider / JetBrains
+.idea/
+
+# Resharper / Code Analysis
+*.DotSettings.user
+*.ReSharper
+*.DotCover
+*.ncrunch*
+*.dotCover
+*.coverage
+*.resharper
+
+# User-specific files
+*.swp
+*.cache
+*.pidb
+*.sdf
+*.sqlite
+*.db
+
+# Publish output
+publish/
+app.publish/
