@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnet\\Day01\\Day01.csproj",
-      "projectName": "Day01",
-      "projectPath": "D:\\dotnet\\Day01\\Day01.csproj",
+      "projectUniqueName": "D:\\Sunbeam\\Dronacharya\\DotNetDayWisePreparation\\Day01\\Day1.1.csproj",
+      "projectName": "Day1.1",
+      "projectPath": "D:\\Sunbeam\\Dronacharya\\DotNetDayWisePreparation\\Day01\\Day1.1.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\dotnet\\Day01\\obj\\",
+      "outputPath": "D:\\Sunbeam\\Dronacharya\\DotNetDayWisePreparation\\Day01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
