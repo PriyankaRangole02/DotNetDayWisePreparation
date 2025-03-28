@@ -5,7 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1.1", "Day1.1.csproj", "{D610052F-335C-49EE-B891-D303DB6BE180}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1.2", "..\Day1.2\Day1.2.csproj", "{D0431853-4485-4196-A254-C620482F0D81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1.2", "..\Day1.2\Day1.2.csproj", "{D0431853-4485-4196-A254-C620482F0D81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1", "..\..\Dronacharya\DotNetDayWisePreparation\Assignment1\Assignment1.csproj", "{004ED0E1-AC5C-436D-839D-3802B1D5924D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathsLib", "..\..\Dronacharya\DotNetDayWisePreparation\MathsLib\MathsLib.csproj", "{DCE69055-D924-4D60-AB08-94EF8BBA802D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D0431853-4485-4196-A254-C620482F0D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0431853-4485-4196-A254-C620482F0D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0431853-4485-4196-A254-C620482F0D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004ED0E1-AC5C-436D-839D-3802B1D5924D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004ED0E1-AC5C-436D-839D-3802B1D5924D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004ED0E1-AC5C-436D-839D-3802B1D5924D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004ED0E1-AC5C-436D-839D-3802B1D5924D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE69055-D924-4D60-AB08-94EF8BBA802D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE69055-D924-4D60-AB08-94EF8BBA802D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE69055-D924-4D60-AB08-94EF8BBA802D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE69055-D924-4D60-AB08-94EF8BBA802D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
