@@ -8,7 +8,7 @@ namespace InheritanceDemo
 {
     public class PFAccount : Account
     {
-        public static double ContributionLimit=5000;
+        public static double ContributionLimit=5000;//every pf instance has fixed contribution limit
 
         public override void Acceptdetails()
         {
@@ -16,11 +16,13 @@ namespace InheritanceDemo
 
         }
 
+
+        //contribution depends on contribution limit
         public override void PerformOperations()
         {
             Console.WriteLine("enter the amount to contribute");
             float amount = Convert.ToInt32(Console.ReadLine());
-            if (balance + amount <= ContributionLimit)
+            if (balance + amount <= ContributionLimit) 
             {
                 balance += amount;
                 Console.WriteLine("contributed successfully");
@@ -30,6 +32,7 @@ namespace InheritanceDemo
 
            
         }
+
         public override string ToString()
         {
             return base.ToString() + $"Balance: {balance} ContributionLimit:{ContributionLimit}";

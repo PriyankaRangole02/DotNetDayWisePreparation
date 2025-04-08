@@ -9,23 +9,24 @@ namespace ClassFeaturesDemo
     internal class Product
     {
         //auto propety false;
-        private int pid;
+        private int pid;  //field
 
         //what if i want to auto increament productId;
-        private static int pidCounter=1001;
+        private static int pidCounter=1001;  
 
         
 
 
        // private string pname;
-        private DateOnly expDate; //or use string
+        private DateOnly expDate; //DateOnly type
+
+
 
         public Product()
         {
              this.pid = 0;
-           
-
-            //this.pidCounter = 0;   //error
+            // this.pidCounter = 0;   //error  static cannnot be initialzed with this
+            pidCounter = 0;   //okay
             // this.pname = null;
             this.Name = null;
             this.expDate = new DateOnly(2025,12,1);
@@ -40,7 +41,7 @@ namespace ClassFeaturesDemo
             this.expDate = expDate;
         }
 
-        //if pid is auto-incremeted so we dont in ctor
+        
 
         public Product(string name,DateOnly expDate)
         {
@@ -50,7 +51,7 @@ namespace ClassFeaturesDemo
         }
 
         // dotnet_style_prefer_auto_properties = true
-        public string Name { get; set; }
+        public string Name { get; set; }   //auto implemented property
 
         //back field proprty
         public int Pid
