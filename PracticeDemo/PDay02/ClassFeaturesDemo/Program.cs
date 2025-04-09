@@ -1,4 +1,6 @@
-﻿namespace ClassFeaturesDemo
+﻿using System.Diagnostics;
+
+namespace ClassFeaturesDemo
 {
     internal class Program
     {
@@ -23,7 +25,9 @@
             product.ExpDate = DateOnly.Parse(Console.ReadLine());
 
             Console.WriteLine(product);
+
             Product product1 = new Product("garam masala", new DateOnly(2025,04,08));
+            Console.WriteLine(product1);
 
             //Object initializer   
             Product product2 = new Product  //it invoked paramterless ctor
