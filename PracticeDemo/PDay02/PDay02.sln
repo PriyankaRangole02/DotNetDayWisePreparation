@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassFeaturesDemo", "ClassFeaturesDemo\ClassFeaturesDemo.csproj", "{9BD8F2BB-FFAF-4EA1-9400-5F9BCC130C91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassFeaturesDemo", "ClassFeaturesDemo\ClassFeaturesDemo.csproj", "{9BD8F2BB-FFAF-4EA1-9400-5F9BCC130C91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{51E21667-DB7A-4B83-BBFD-25BB337E029C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{51E21667-DB7A-4B83-BBFD-25BB337E029C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsBasic", "OopsBasic\OopsBasic.csproj", "{D86CA325-F1FA-4AED-9650-F8E0CD9B9AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsBasic2", "OopsBasic2\OopsBasic2.csproj", "{954B6833-E9CE-4308-BD98-EB09070A31CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{51E21667-DB7A-4B83-BBFD-25BB337E029C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51E21667-DB7A-4B83-BBFD-25BB337E029C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51E21667-DB7A-4B83-BBFD-25BB337E029C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86CA325-F1FA-4AED-9650-F8E0CD9B9AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86CA325-F1FA-4AED-9650-F8E0CD9B9AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86CA325-F1FA-4AED-9650-F8E0CD9B9AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86CA325-F1FA-4AED-9650-F8E0CD9B9AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954B6833-E9CE-4308-BD98-EB09070A31CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954B6833-E9CE-4308-BD98-EB09070A31CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954B6833-E9CE-4308-BD98-EB09070A31CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954B6833-E9CE-4308-BD98-EB09070A31CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
